@@ -13,6 +13,7 @@ public class StudentDemo
 {
   private String studentID;
   private String name;
+  private String filedOfStudy;
   
   /**
    * A constructor to pass in the given ID and then name
@@ -56,6 +57,20 @@ public class StudentDemo
      */
     public void setName(String givenName) {
         name = givenName;
+    }
+
+    /**
+     * @return the filedOfStudy
+     */
+    public String getFiledOfStudy() {
+        return filedOfStudy;
+    }
+
+    /**
+     * @param filedOfStudy the filedOfStudy to set
+     */
+    public void setFiledOfStudy(String filedOfStudy) {
+        this.filedOfStudy = filedOfStudy;
     }
     
 }
